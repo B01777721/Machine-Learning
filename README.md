@@ -1,4 +1,4 @@
-# MachineLearning
+# Machine Learning
 Implementation of machine learning algorithms
 
 1. Linear Regression
