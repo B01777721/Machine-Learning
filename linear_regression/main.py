@@ -2,6 +2,9 @@ import numpy as np
 import csv
 from random import shuffle
 import linear_regression as lr
+import sys
+
+method = sys.argv[1]
 
 #read data from csv file
 with open('Admission_Predict.csv','r') as csvfile:
@@ -43,8 +46,21 @@ testX = test_data[:,0:7]
 testY = test_data[:,7]
 
 #now as we have train/test datasets, let's call the regression model
-weights = lr.train(trainX,trainY)
-prediction = lr.predict(testX, weights)
-score = lr.test(testY, prediction)
-print("score: ", score)
+
+
+if method == 'normal':
+    weights = lr.train_with_normal(trainX,trainY)
+    prediction = lr.predict(testX,weights)
+    score = lr.test(testY,prediction)
+    print("score: ", score)
+elif method == 'gradient':
+    weights = lr.train_with_gradient(trainX,trainY)
+    testX = lr.normalize(testX)
+    testY = lr.y_normalize(testY)
+    prediction = lr.predict(testX,weights)
+    score = lr.test(testY,prediction)
+    print("score: ", score)
+else:
+    print("training method must be either normal or gradient")
+
 
