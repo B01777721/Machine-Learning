@@ -3,11 +3,12 @@ Implementation of machine learning algorithms
 
 1. Linear Regression
 2. Logistic Regression
-3. Neural Network and Backpropagation
-4. Support Vector Machine
-5. Decision Tree
-6. K-Nearest Neighbor
-7. K-Means Clustering
-8. Expectation-Maximization (EM)
-9. Factor Analysis / PCA / ICA
+3. Naive Bayes Classification
+4. Neural Network and Backpropagation
+5. Support Vector Machine
+6. Decision Tree
+7. K-Nearest Neighbor
+8. K-Means Clustering
+9. Expectation-Maximization (EM)
+10. Factor Analysis / PCA / ICA
 
