@@ -1,14 +1,9 @@
 # Machine Learning
-Implementation of machine learning algorithms
+Spr 2018 CSCI 1420 
 
-1. Linear Regression
-2. Logistic Regression
-3. Naive Bayes Classification
-4. Neural Network and Backpropagation
-5. Support Vector Machine
-6. Decision Tree
-7. K-Nearest Neighbor
-8. K-Means Clustering
-9. Expectation-Maximization (EM)
-10. Factor Analysis / PCA / ICA
-
+1. Decision Tree
+2. Naive Bayes and Logistic Regression
+3. K-means Clustering and K-nearest neighbors
+4. Support Vector Machines
+5. Feedforward networks
+6. Expectation-Maximization
