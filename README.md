@@ -1,5 +1,5 @@
 # Machine Learning
-Spr 2018 CSCI 1420 
+Spring 2018 CSCI 1420 Machine Learning (Brown University)
 
 1. Decision Tree
 2. Naive Bayes and Logistic Regression
